@@ -1,0 +1,29 @@
+// Font awesome
+$fa-font-path: '../node_modules/font-awesome/fonts';
+@import '~font-awesome/scss/font-awesome';
+// Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+// Angular Material
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-size: 16px;
+  margin-bottom: 60px;
+
+  nav {
+    border-top: 5px solid darkorange;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+  }
+}
